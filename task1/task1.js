@@ -7,7 +7,7 @@ readline.question('Введите необходимое число: ', number=>
     if(isNaN(number.trim()) || number.trim().length < 1){
         console.log('Повторите попытку ввода числа.');
     } else if(Number(number.trim()) > 7){
-        console.log('Привет.');
+        console.log('Привет');
     };
 
 readline.close();
